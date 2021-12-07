@@ -146,7 +146,7 @@ alert {
                 </b></label>&nbsp;<asp:TextBox ID="TextBox2" runat="server" CssClass="textbox" placeholder="Enter your Password" name="psw" TextMode="Password" required OnTextChanged="TextBox2_TextChanged"></asp:TextBox>
 
       <label for="psw-repeat"><b>Repeat Password&nbsp; </b></label>
-                <asp:CompareValidator ID="CompareValidator1" runat="server" ControlToCompare="TextBox2" ControlToValidate="TextBox3" ErrorMessage="* Password did not match" ForeColor="#CC333A"></asp:CompareValidator>
+                <asp:CompareValidator ID="CompareValidator1" runat="server" ControlToCompare="TextBox2" ControlToValidate="TextBox3" ErrorMessage="* Password doesnt not match" ForeColor="#CC333A"></asp:CompareValidator>
 &nbsp;<asp:TextBox ID="TextBox3" runat="server" type="password" placeholder="Repeat Password" name="psw-repeat" required></asp:TextBox>
       
       <label>
